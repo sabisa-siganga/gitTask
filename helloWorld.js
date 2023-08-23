@@ -1,9 +1,10 @@
+
 const greetUser = (input) => {
-    const inputFromUser = prompt("Please enter your name", input);
+    const inputUser = prompt("Please enter your name", input);
     
-    if (inputFromUser != null) {
+    if (inputUser != null) {
       document.getElementById("greet").innerHTML =
-      "Hello " + inputFromUser + "!"
+      "Hello " + inputUser + "!"
 }
 }
    
